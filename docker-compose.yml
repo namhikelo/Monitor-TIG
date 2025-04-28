@@ -35,7 +35,7 @@ services:
 
   nginx:
     image: nginx:alpine
-    container_name: nginx
+    container_name: nginx-grafana
     restart: always
     volumes:
       - ./nginx:/etc/nginx/conf.d
